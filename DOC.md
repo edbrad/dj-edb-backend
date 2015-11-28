@@ -43,7 +43,7 @@ Tags			string	Search Tag(s)
 ### Track (Tracks)
 ```
 MixId			int		Related Mix [fk]
-Number			string	Track Number [Required]
+Number			int		Track Number [Required]
 Title			string	Track Title [Required]
 Artist			string	Artist(s)
 Year			string	Year

@@ -1,0 +1,58 @@
+{
+  "name": "Mix",
+  "plural": "Mixes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "AudioURL": {
+      "type": "string"
+    },
+    "VideoURL": {
+      "type": "string"
+    },
+    "ArtURL": {
+      "type": "string"
+    },
+    "DateRecorded": {
+      "type": "date"
+    },
+    "DatePublished": {
+      "type": "date"
+    },
+    "IsVisible": {
+      "type": "boolean"
+    },
+    "LengthMinutes": {
+      "type": "number"
+    },
+    "LengthSeconds": {
+      "type": "number"
+    },
+    "PlayCount": {
+      "type": "number"
+    },
+    "LikeCount": {
+      "type": "number"
+    },
+    "Tags": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "tracks": {
+      "type": "hasMany",
+      "model": "Track",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

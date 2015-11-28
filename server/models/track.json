@@ -1,0 +1,47 @@
+{
+  "name": "Track",
+  "plural": "Tracks",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Number": {
+      "type": "number",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Artist": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "string"
+    },
+    "Label": {
+      "type": "string"
+    },
+    "ArtURL": {
+      "type": "string"
+    },
+    "IndexMinutes": {
+      "type": "number"
+    },
+    "IndexSeconds": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "mix": {
+      "type": "belongsTo",
+      "model": "Mix",
+      "foreignKey": "mixId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
