@@ -52,5 +52,12 @@ ArtURL			string	URL to Track Artwork
 IndexMinutes	int		Start Time Minutes
 IndexSeconds	int		Start Time Seconds
 ```
+## MongoDB support
 
+### Add LoopBack connector for MongoDB
+
+```
+$ npm install loopback-connector-mongodb --save
+
+```
 				

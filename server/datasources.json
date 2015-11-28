@@ -2,5 +2,12 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "dj-edbDatasource": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "dj-edb",
+    "name": "dj-edbDatasource",
+    "connector": "mongodb"
   }
 }
