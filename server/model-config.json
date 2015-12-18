@@ -33,11 +33,15 @@
     "public": false
   },
   "Mix": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "dj-edbDatasource",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Track": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "dj-edbDatasource",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
