@@ -51,6 +51,7 @@ Label			string	Recording Label
 ArtURL			string	URL to Track Artwork
 IndexMinutes	int		Start Time Minutes
 IndexSeconds	int		Start Time Seconds
+Release			string	EP/LP Release Name
 ```
 ## MongoDB support
 
